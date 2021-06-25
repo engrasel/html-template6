@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  slider -->
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- bootstrap 5 icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <link rel="stylesheet" href="css/student-feedback.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg_transparent sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+            	<img src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Success</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn border login" href="#">login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-danger" href="#">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner -->
+    <section class="banner">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <div class="banner_content">
+                                    <h1>Got stuck? We will always be there for you.</h1>
+                                    <p>Got stuck? We will always be there for you.</p>
+                                    <a href="#" class="btn btn-danger  enroll_btn d-table">Enroll Now</a>
+
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="https://web.programming-hero.com/public/1607429045811.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <div class="banner_content">
+                                    <h1>Got stuck? We will always be there for you.</h1>
+                                    <p>Got stuck? We will always be there for you.</p>
+                                   <a href="#" class="btn btn-danger  enroll_btn d-table">Enroll Now</a>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="https://web.programming-hero.com/public/1607429045811.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <div class="banner_content">
+                                    <h1>Got stuck? We will always be there for you.</h1>
+                                    <p>Got stuck? We will always be there for you.</p>
+                                    <a href="#" class="btn btn-danger  enroll_btn d-table">Enroll Now</a>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="https://web.programming-hero.com/public/1607429045811.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- course time duration -->
+    <section class="course_time_duration">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="heading_title text-center pt-3">পরবর্তী ব্যাচের সময় সূচি</h2>
+                <div class="course_time_schedule_wrapper d-flex justify-content-between p-5">
+                    <div class="course_time_schedule">
+                        <h4> <span> <i class="bi bi-calendar"></i> </span> রেজিস্ট্রেশন শুরু: জুন ১০, ২০২১ (বৃহস্পতিবার)
+                        </h4>
+                        <h4> <span> <i class="bi bi-calendar"></i> </span> রেজিস্ট্রেশন শুরু: জুন ১০, ২০২১ (বৃহস্পতিবার)
+                        </h4>
+                    </div>
+                    <div class="course_time_schedule">
+                        <h4> <span> <i class="bi bi-calendar"></i> </span> রেজিস্ট্রেশন শুরু: জুন ১০, ২০২১ (বৃহস্পতিবার)
+                        </h4>
+                        <h4> <span> <i class="bi bi-calendar"></i> </span> রেজিস্ট্রেশন শুরু: জুন ১০, ২০২১ (বৃহস্পতিবার)
+                        </h4>
+                    </div>
+                </div>
+                <div class="course_enroll_message d-flex justify-content-between">
+                    <h3 class="heading_title">তুমি ৪র্থ ব্যাচে এনরোল করতে আগ্রহি হলে, ওয়েবসাইটে
+                        রেজিস্ট্রেশন করে রাখো</h3>
+                    <a href="#" class="btn btn-danger enroll_btn">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- course details -->
+    <section class="course_details my-5">
+        <div class="container">
+            <h2 class="heading_title text-center py-3">এই কোর্স থেকে কি কি শিখতে পারবে:</h2>
+
+            <div class="row">
+                <div class="col-md-12 col-xl-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="intro_video d-flex justify-content-center align-items-center">
+                                <a href="#">
+                                    <img src="images/intro-video.png" alt="">
+                                </a>
+                            </div>
+                            <div class="registration_btn">
+                                <p>Registration is Closed</p>
+                            </div>
+                            <div class="info_box d-flex justify-content-between text-center">
+                                <div class="single_info">
+                                    <img src="images/month.png" alt="month">
+                                    <h3 class="mt-2">3</h3>
+                                    <p>Month Required</p>
+                                </div>
+
+                                <div class="single_info">
+                                    <img src="images/enrolled.png" alt="month">
+                                    <h3 class="mt-2">3066</h3>
+                                    <p>Enrolled</p>
+                                </div>
+
+                                <div class="single_info">
+                                    <img src="images/certificate.png" alt="month">
+                                    <h3 class="mt-2 text-capitalize">Yes</h3>
+                                    <p>Certificate</p>
+                                </div>
+                            </div>
+
+                            <div class="info_box_count d-flex justify-content-between my-4">
+                                <div class="single_count d-flex align-items-center">
+                                    <img src="images/icon-videos.png" alt="icon-videos">
+                                    <p class="text-capitalize">550 Videos</p>
+                                </div>
+
+                                <div class="single_count d-flex align-items-center">
+                                    <img src="images/icon-quizes.png" alt="icon-videos">
+                                    <p class="text-capitalize">60 Quizes</p>
+                                </div>
+
+                                <div class="single_count d-flex align-items-center">
+                                    <img src="images/icon-assignment.png" alt="icon-videos">
+                                    <p class="text-capitalize">Assignment</p>
+                                </div>
+                            </div>
+                            <h2 class="course_price"> ৳ 5500 </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-xl-7">
+                    <div class="course_content">
+
+                        <div class="single_course_content d-flex">
+                            <i class="bi bi-check-square-fill"></i>
+                            <p class="px-2">ফটাফট কয়েকটা ভিডিও দেখে HTML, CSS শিখে ফটাফট চমৎকার দুইটা ওয়েবসাইট বানিয়ে
+                                ফেলবে। এবং
+                                সেগুলার লিংক যেকারো সাথে শেয়ার করে ভাব পেটাতে পারবে।</p>
+                        </div>
+
+                        <div class="single_course_content d-flex">
+                            <i class="bi bi-check-square-fill"></i>
+                            <p class="px-2">ফটাফট কয়েকটা ভিডিও দেখে HTML, CSS শিখে ফটাফট চমৎকার দুইটা ওয়েবসাইট বানিয়ে
+                                ফেলবে। এবং
+                                সেগুলার লিংক যেকারো সাথে শেয়ার করে ভাব পেটাতে পারবে।</p>
+                        </div>
+
+                        <div class="single_course_content d-flex">
+                            <i class="bi bi-check-square-fill"></i>
+                            <p class="px-2">ফটাফট কয়েকটা ভিডিও দেখে HTML, CSS শিখে ফটাফট চমৎকার দুইটা ওয়েবসাইট বানিয়ে
+                                ফেলবে। এবং
+                                সেগুলার লিংক যেকারো সাথে শেয়ার করে ভাব পেটাতে পারবে।</p>
+                        </div>
+
+                        <div class="single_course_content d-flex">
+                            <i class="bi bi-check-square-fill"></i>
+                            <p class="px-2">ফটাফট কয়েকটা ভিডিও দেখে HTML, CSS শিখে ফটাফট চমৎকার দুইটা ওয়েবসাইট বানিয়ে
+                                ফেলবে। এবং
+                                সেগুলার লিংক যেকারো সাথে শেয়ার করে ভাব পেটাতে পারবে।</p>
+                        </div>
+
+                        <div class="single_course_content d-flex">
+                            <i class="bi bi-check-square-fill"></i>
+                            <p class="px-2">ফটাফট কয়েকটা ভিডিও দেখে HTML, CSS শিখে ফটাফট চমৎকার দুইটা ওয়েবসাইট বানিয়ে
+                                ফেলবে। এবং
+                                সেগুলার লিংক যেকারো সাথে শেয়ার করে ভাব পেটাতে পারবে।</p>
+                        </div>
+
+                        <div class="single_course_content d-flex">
+                            <i class="bi bi-check-square-fill"></i>
+                            <p class="px-2">ফটাফট কয়েকটা ভিডিও দেখে HTML, CSS শিখে ফটাফট চমৎকার দুইটা ওয়েবসাইট বানিয়ে
+                                ফেলবে। এবং
+                                সেগুলার লিংক যেকারো সাথে শেয়ার করে ভাব পেটাতে পারবে।</p>
+                        </div>
+
+                        <div class="single_course_content d-flex">
+                            <i class="bi bi-check-square-fill"></i>
+                            <p class="px-2">ফটাফট কয়েকটা ভিডিও দেখে HTML, CSS শিখে ফটাফট চমৎকার দুইটা ওয়েবসাইট বানিয়ে
+                                ফেলবে। এবং
+                                সেগুলার লিংক যেকারো সাথে শেয়ার করে ভাব পেটাতে পারবে।</p>
+                        </div>
+
+                        <div class="single_course_content d-flex">
+                            <i class="bi bi-check-square-fill"></i>
+                            <p class="px-2">ফটাফট কয়েকটা ভিডিও দেখে HTML, CSS শিখে ফটাফট চমৎকার দুইটা ওয়েবসাইট বানিয়ে
+                                ফেলবে। এবং
+                                সেগুলার লিংক যেকারো সাথে শেয়ার করে ভাব পেটাতে পারবে।</p>
+                        </div>
+
+                    </div>
+                    <div class="single_course_footer_content py-5">
+                        <p>তবে যারা একটু ফাঁকিবাজ তাদের জন্য দুঃসংবাদ হচ্ছে। প্রত্যেক ভিডিও এর পরে প্রশ্ন থাকছে।
+                            প্রত্যেক মডিউল শেষে ফাইনাল কুইজ আছে। আর প্রত্যেকটা প্রজেক্টের পর একটা করে টেক-এওয়ে
+                            হোমওয়ার্ক আছে।</p>
+                        <br />
+                        <p>এই কোর্স ফলো করে কেউ যদি ওয়েব ডেভেলপার না হতে পারে, দুনিয়ার আর কেউ তাকে ওয়েব ডেভেলপার
+                            বানাতে পারবে না।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- course questions and answers -->
+    <section class="course_questions_and_answers">
+        <div class="course_tabs">
+            <div class="container">
+                <ul class="nav nav-tabs text-center my-5" id="pills-tab" role="tablist">
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">
+                            <i class="bi bi-star-fill d-block mx-auto py-2"></i>
+                            এই কোর্সের বিশেষত্ব কি?
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">
+                            <i class="bi bi-pen-fill d-block mx-auto py-2"></i>
+                            এই কোর্স কিভাবে চলবে?</button>
+                    </li>
+                </ul>
+                <!-- <div class="container"> -->
+                <div class="tab-content mb-5" id="pills-tabContent">
+
+                    <!-- TAB 1 CONTENT -->
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                        <div class="course_specialization">
+
+                            <div class="single_course_specialization d-flex">
+                                <img src="images/icon-development.png" alt="icon-development.png">
+                                <div class="qa_content">
+                                    <h3>এইটা কমপ্লিট ওয়েব ডেভেলপমেন্ট এর কোর্স:</h3>
+                                    <p>শূন্য থেকে একজন জুনিয়র ওয়েব ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য যা যা লাগে তার
+                                        সবকিছুই ধরে ধরে শিখানো হয়েছে এই কোর্সে। সো, এই কোর্স ভালোভাবে ফিনিশ করলে ওয়েব
+                                        ডেভেলপমেন্ট সম্পর্কে আর কোথাও কোন কোর্স না করেই ইন্টার্ন বা চাকরির চেষ্টা শুরু
+                                        করে দিতে পারবে। </p>
+                                </div>
+                            </div>
+                            <div class="single_course_specialization d-flex">
+                                <img src="images/icon-support.png" alt="icon-support.png">
+                                <div class="qa_content">
+                                    <h3>আনলিমিটেড সাপোর্ট: </h3>
+                                    <p>কোর্স চলাকালীন সময়ে ২৪ ঘন্টার মধ্যে তোমার যেকোন প্রশ্নের উত্তর দেয়া হবে (ছুটির
+                                        দিন বাদে)। অথাৎ প্রথম তিন মাস আমাদের ফেইসবুক গরূপে তোমার সব প্রশ্নের উত্তর দেয়া
+                                        হবে। এবং জটিল কোন প্রবলেম হলে সেটা যদি ফেইসবুক গরূপে সলভ না হয় তাহলে সপ্তাহে ২/৩
+                                        বার গুগল হ্যাংআউট এ এসে তোমার স্কিন শেয়ার করে প্রবলেম সলভ করা হবে। আর কোর্স শেষ
+                                        হয়ে গেলে (৩মাস পরেও ) তোমাকে লুজ সাপোর্ট দেয়া হবে (২৪ ঘন্টা লিমিট থাকবে না।)</p>
+                                </div>
+                            </div>
+
+                            <div class="single_course_specialization d-flex">
+                                <img src="images/icon-interview.png" alt="icon-interview.png">
+                                <div class="qa_content">
+                                    <h3>স্পেশাল ইন্টারভিউ প্রিপারেশন গ্রূপ:</h3>
+                                    <p>যারা ডেইলি ডেইলি কাজ করবে। প্রতিদিন ৬ থেকে ১০ ঘন্টা সময় দিবে। জানপ্রাণ দিয়ে
+                                        সিরিয়াসভাবে কোর্স নিদৃস্ট সময়ের মধ্যে ফিনিশ করবে। তাদের নিয়ে তৈরি করা SCIC
+                                        (Super Charged Interviewee Club) । এইটা ৪ থেকে ৬ সপ্তাহের স্পেশাল ট্রেনিং। যেটার
+                                        জন্য আলাদা কোন ফি নাই। একটাই যোগ্যতা: সিরিয়াস হার্ডওয়ার্ক করে নিদৃস্ট সময়ের
+                                        মধ্যে কোর্স ফিনিশ করা।</p>
+                                </div>
+                            </div>
+                            <div class="single_course_specialization d-flex">
+                                <img src="images/icon-cv.png" alt="icon-cv.png">
+                                <div class="qa_content">
+                                    <h3>চাকরির জন্য সিভি পাঠানো: </h3>
+                                    <p>যারা SCIC তে সুযোগ পাবে। এবং সেটা ঠিক মতো শেষ করবে আরো ৪ থেকে ৬ সপ্তাহ লেগে
+                                        থাকবে। তাদের সিভি আমরা পাঠিয়ে দিবো বিভিন্ন কোম্পানিতে। কোম্পানি হায়ার করবে, কি
+                                        করবে না: সেটা তাদের সিদ্ধান্ত। আমাদের কাজ হচ্ছে সিভি পৌঁছে দেয়া। আমাদের একজন টিম
+                                        মেম্বার কাজ করে যাবে তাকে চাকরি পাওয়ার জন্য হেল্প করতে। সো, যতক্ষণ পর্যন্ত তুমি
+                                        লেগে আছো। আমরা আছি তোমার সাথে।</p>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                    <!-- TAB 2 CONTENT -->
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="course_way">
+
+                            <div class="single_course_way d-flex">
+                                <h2>১</h2>
+                                <div class="qa_content">
+                                    <p>প্রতিদিন রাত ১০.০০ এর সময় (বাংলাদেশ সময়) একটা মডিউল রিলিজ দেয়া হবে। তোমার কাজ হবে
+                                        ২৪ ঘন্টার মধ্যে সব ভিডিও দেখে শেষ করে ফেলা। মোটামুটি ১.৫ থেকে ২ ঘন্টার মতো ভিডিও
+                                        থাকবে। </p>
+                                </div>
+                            </div>
+                            <div class="single_course_way d-flex">
+                                <h2>২</h2>
+                                <div class="qa_content">
+                                    <p>তবে শুধু ভিডিও দেখে গেলে কাজ হবে না। ভিডিও এর কোন টপিক বুঝতে না পারলে গুগল বা
+                                        ইউটিউবে সার্চ দিয়ে আরো অন্য টিউটোরিয়াল দেখতে হবে। প্রত্যেক ভিডিও শেষে একাধিক
+                                        প্রশ্ন থাকবে। </p>
+                                </div>
+                            </div>
+
+                            <div class="single_course_way d-flex">
+                                <h2>৩</h2>
+                                <div class="qa_content">
+                                    <p> কোথাও না বুঝলে বা আটকে গেলে। আমাদের ফেইসবুক গরূপে প্রশ্ন করতে পারবে। তোমার যেকোন
+                                        প্রশ্নের উত্তর কোর্স চলাকালীন সময়ে ২৪ ঘন্টার মধ্যে উত্তর দেয়া হবে।</p>
+                                </div>
+                            </div>
+                            <div class="single_course_way d-flex">
+                                <h2>৪</h2>
+                                <div class="qa_content">
+                                    <p>কোর্স এক টানা বারো সপ্তাহ চলবে। কোন ডেটিংয়ের ব্রেক, সূর্য না উঠার ব্রেক, বা পাশের
+                                        বাড়ির ট্যাংকি লিক হয়ে যাওয়ার জন্য কোন গ্যাপ বা বাড়তি সময় দেয়া হবে না। </p>
+                                </div>
+                            </div>
+
+                            <div class="single_course_way d-flex">
+                                <h2>৫</h2>
+                                <div class="qa_content">
+                                    <p> যারা নিদৃস্ট সময়ের মধ্যে ডেডিকেটেডভাবে লেগে থেকে কোর্স শেষ করবে। এসাইনমেন্ট সঠিক
+                                        সময়ে সাবমিট করবে তাদের থেকে SCIC এর জন্য সিলেক্ট করা হবে। SCIC এর জন্য
+                                        হার্ডওয়ার্ক ছাড়া আলাদা কোন ফি নেই।</p>
+                                </div>
+                            </div>
+                            <div class="single_course_way d-flex">
+                                <h2>৬</h2>
+                                <div class="qa_content">
+                                    <p>আমাদের কোর্স প্রি-রেকর্ডেড (ভিডিও আগে থেকে রেকর্ড করা থাকবে)। অর্থাৎ লাইভ ক্লাস
+                                        হবে না। তাই রাত ১০.০০ এর পরে যেকোন সময়ের মধ্যে ভিডিও দেখে নিলেই চলবে। প্রতিদিন
+                                        গড়ে ৬ থেকে ৮ ঘন্টা সময় দিতে হবে। মিনিমাম ৪ থেকে ৬ ঘন্টা সময় দিতেই হবে।</p>
+                                </div>
+                            </div>
+
+                            <div class="single_course_way d-flex">
+                                <h2>৭</h2>
+                                <div class="qa_content">
+                                    <p> পাঁচ ছয়টা মডিউল পরে। যখন এসাইনমেন্ট থাকবে তখন এসাইনমেন্ট এর সাইজ অনুসারে তোমাকে
+                                        এক দিন, দুই দিন বা তিন দিন সময় দেয়া হবে। এসাইনমেন্ট সঠিক সময়ে জমা দিলে ৬০
+                                        মার্কস। একদিন দেরি করলে ৫০ মার্কস। তার চাইতেও বেশি সময় নিলে ৩০ মার্কস। </p>
+                                </div>
+                            </div>
+                            <div class="single_course_way d-flex">
+                                <h2>৮</h2>
+                                <div class="qa_content">
+                                    <p> দরকার হলে মাঝে মধ্যে ফেইসবুক গরূপে লাইভ এসে প্রশ্নের উত্তর বা কনসেপ্ট ব্যাখ্যা
+                                        করা হবে। প্রয়োজনে কোর্সের মধ্যে নতুন মডিউল যোগ করা হবে। যাতে তুমি পরিপূর্ন ওয়েব
+                                        ডেভেলপার হয়ে উঠো এই একটা মাত্র কোর্স থেকে। </p>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- course module -->
+    <section class="course_module">
+        <div class="container">
+            <div class="row">
+                <h2 class="heading_title text-center py-3">কোর্সে যা কিছু আছে</h2>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/complete-web-development.png" alt="" class="w-100 img-fluid">
+                            <a class="enroll_now btn w-100 mt-3 text-capitalize"> enroll now <span> <i
+                                        class="bi bi-arrow-right"></i>
+                                </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <ul class="module_list">
+                        <li>
+                            <a href="#">Module 0: Orientation. How to get ready for this course</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Module 1: Orientation. How to get ready for this course</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Module 2: Orientation. How to get ready for this course</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Module 3: Orientation. How to get ready for this course</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Module 4: Orientation. How to get ready for this course</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Module 5: Orientation. How to get ready for this course</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Module 6: Orientation. How to get ready for this course</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Module 7: Orientation. How to get ready for this course</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Module 8: Orientation. How to get ready for this course</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- course_faq -->
+    <div class="course_faq">
+        <div class="container">
+            <div class="row">
+                <h2 class="heading_title text-center py-3">কোর্স সম্পর্কিত সাধারণ জিজ্ঞাসা</h2>
+                <div class="col-md-12 col-xl-6 ">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    এই কোর্স কাদের জন্য?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>যারা ওয়েব ডেভেলপার হতে চায়। যারা একদম শূন্য থেকে শুরু করে শেষ পর্যন্ত ওয়েব
+                                        ডেভেলপমেন্ট শিখে তারপর ওয়েব ডেভেলপার হিসেবে কোন সফটওয়্যার কোম্পানিতে চাকরি করতে
+                                        চায়,
+                                        তাদের জন্য। যারা প্রোগ্রামিং বা ওয়েব ডেভেলপমেন্ট সম্পর্কে তেমন কিছুই জানে না,
+                                        তাদের
+                                        জন্য। এমনকি যারা চার বছর CSE পড়েও কিভাবে কি করবে দিশা করতে পারতেছে না, গুছিয়ে
+                                        তেমন
+                                        কিছু শিখেনি, তারাও এই কোর্স থেকে কমপ্লিট ওয়েব ডেভেলপমেন্ট শিখে চাকরিতে এপ্লাই
+                                        করতে
+                                        পারবে। 😀</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    এই কোর্স শুরু করার আগে আমার কী কী পূর্ব অভিজ্ঞতা থাকা দরকার?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>তোমাকে তিনটা জিনিস জানতে হবে: ১. কিভাবে কম্পিউটার অন-অফ করে। কোনটা কীবোর্ড আর
+                                        কোনটা মাউস সেটা জানতে হবে। ২. ভিডিও দেখে দেখে জিনিসগুলো মাথায় ঢুকানোর জন্য
+                                        একটুখানি ব্রেনের খালি জায়গা রাখতে হবে। ৩. কোথাও আটকে গেলে হেল্প চাওয়ার
+                                        মেন্টালিটি এবং লেগে থাকার ইচ্ছা রাখতে হবে।</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    কোর্সের মধ্যে কী কী আছে
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>সেটা কোর্স কারিকুলাম দেখলেই বুঝতে পারবে। তবে ছোট করে বললে, বলা যায়: বর্তমান সময়ে
+                                        একজন সিরিয়াস ওয়েব ডেভেলপার হওয়ার জন্য যা যা লাগে, তার সবই আছে এই কোর্সে। যেমন
+                                        ধরো HTML, CSS থেকে শুরু করে bootstrap, JavaScript, Git, ES6, REST API, servers,
+                                        JSON তো আছেই। তার সাথে সাথে আছে বর্তমান সময়ে সবচেয়ে বেশি চাকরি যে ফ্রেমওয়ার্ক
+                                        সেই React, advanced React দিয়ে কমপ্লিট ওয়েবসাইট বানানোর সিস্টেম আছে। বাড়তি
+                                        হিসেবে আছে node, database (mongodb), debug, problem solving, interview questions
+                                        সহ আরো অনেক জিনিস আছে। আর পুরা কোর্সে তোমাকে সাতটা ওয়েবসাইট করে দেখানো হবে। আরো
+                                        সাতটা ওয়েবসাইট থাকবে তোমার হোমওয়ার্ক হিসেবে। এই পুরা জিনিস কোন রকমে শেষ করতে
+                                        পারলে, একজন উন্নতমানের জুনিয়র ওয়েব ডেভেলপার না হয়ে উপায় থাকবে না। 😀</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    কোর্সের ভিডিও গুলো কিভাবে পাবো?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>কোর্সের ভিডিও গুলো প্রি-রেকর্ড থাকবে। তুমি একাউন্ট খুলে এই কোর্সে এনরোল করলে।
+                                        ভিডিওগুলো কোর্স শুরু হওয়ার পরে থেকে প্রতিদিন একটা করে মডিউল দেয়া হবে। সারাদিনের
+                                        মধ্যে তুমি যখন ইচ্ছা এই ওয়েব সাইটে লগিন করে কোর্স ভিডিও দেখতে পাবে।</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    এই কোর্স কমপ্লিট করতে কতদিন সময় লাগবে?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>তুমি যদি প্রতিদিন ১ থেকে দেড় ঘন্টা ধরে ভিডিও দেখো, তার সাথে সাথে মিনিমাম ৪ থেকে ৬
+                                        ঘন্টা প্রাকটিস করো, তাহলে তোমার দুই মাসের মতো সময় লাগবে। তবে মাঝে মধ্যে
+                                        হোমওয়ার্ক আর টেক এওয়ে প্রজেক্ট এর জন্য বাড়তি সময় বরাদ্ধ রাখতে হবে। হার্ডওয়ার্ক
+                                        করার মেন্টালিটি নিয়ে আসতে হবে। ফাঁকিবাজি বা শর্টকাট করার কোন উপায় নাই।</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    কোর্সটি করতে শিক্ষাগত ব্যাকগ্রাউন্ড কেমন থাকা লাগবে?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>আমরা কোর্সটি এমনভাবে সাজিয়েছি যেখানে একাডেমিক ব্যাকগ্রাউন্ড ম্যাটার করে না। তুমি
+                                        যেকোনো একাডেমিক ব্যাকগ্রাউন্ড থেকে এই কোর্সটি করতে পারবে। চাইলে ভার্সিটির
+                                        স্টুডেন্ট, কলেজের স্টুডেন্ট, চাকরিজীবি, বেকার, প্রেমিক, পলাতক প্রেমিক, এমনকি ফোন
+                                        ধরে না এমন প্রেমিকা সবাই যাতে শিখতে পারে সেজন্য একদম শূন্য থেকে শুরু করা হয়েছে।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    আমার কি কি জিনিস লাগবে?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>প্রথমত লাগবে ডেডিকেটেড সময়। প্রতিদিন মাস্ট ৪-৬ ঘন্টা। সম্ভব হলে ৮-১০ঘন্টা( সময় না
+                                        দিতে পারলে। হার্ডওয়ার্ক করার ইচ্ছা না থাকলে কোর্সে এনরোল করে কোন লাভ হবে না)
+                                        দ্বিতীয়ত লাগবে একটা ল্যাপটপ (যেখানে node, Visual Studio কোড ইনস্টল করা যায়) আর
+                                        তৃতীয়ত লাগবে মিনিমাম ৪-১০ এমবিপিএস এর ইন্টারনেট। ব্রডব্যান্ড হলেই ভালো।
+                                        প্রফেশনাল ওয়েব ডেভেলপার হতে হলে মিনিমাম ৩ মাস সিরিয়াস হার্ডওয়ার্ক এর কথা মাথায়
+                                        রেখে নামতে হবে।</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    এই কোর্সটা ফ্রি না কেন?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>আমাদের একজন প্রফেশনাল ওয়েব ডেভেলপার থাকবে তোমার সব প্রশ্নের উত্তর দিতে। কারণ আমরা
+                                        জানি-- কোর্স করতে গেলে তুমি আটকে যাবে। তোমার মাথায় অনেক প্রশ্ন আসবে। এছাড়াও পুরা
+                                        প্রজেক্টের পিছনে ৬জন মানুষ কাজ করছে এবং করে যাচ্ছে তোমাকে সফল করানোর জন্য। যখন
+                                        দরকার হবে নতুন ভিডিও যোগ করা হবে। আর এই সার্ভিসগুলো রাখার জন্যই আমাদের কিছু ফি
+                                        রাখতে হচ্ছে।</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    কোর্স ফি ম্যানেজ করতে পারছি, কিন্তু সেটা দিতে সমস্যা হচ্ছে আমি কি করবো?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>কোন টেনশন নাই। এখনই তোমার সমস্যা সম্পর্কে বিস্তারিত web@programming-hero.com এই
+                                        ইমেইলে পাঠিয়ে দাও। অথবা আমাদের অফিসিয়াল নাম্বারে কল করে জানাও। আমরা ঘুমিয়ে না
+                                        থাকলে সঙ্গে সঙ্গেই রিপ্লাই দিবো। সর্বোচ্চ ২৪ ঘন্টার মধ্যে উত্তর না পেলে, এই
+                                        ইমেইল ওয়ালার খবর আছে। </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    কোর্স শেষ করার পর চাকরি কিভাবে পাব?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>এই রিলেটেড একটা মডিউলও আছে। সেটা দেখে ফেললেই ইন্টারভিউ প্রোসেস, এপ্লিকেশন এবং
+                                        চাকরি রিলেটেড অনেক অনেক জিনিস জানতে পারবে। এছাড়া তুমি ২ মাস যদি রেগুলার
+                                        সিরিয়াসলি কোর্স নির্দিষ্ট সময়ের মধ্যে শেষ করো। তাহলে তোমাকে আরো এক মাস SCIC তে
+                                        নিয়ে ইন্টারভিউ এর স্পেশাল ট্রেনিং দেয়া হবে। সো, তুমি যত বেশি চেষ্টা করবে আমরা তত
+                                        বেশি সহযোগিতা করবো।</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    কোর্স ফলো করতে গিয়ে কোথাও আটকে গেলে কি করবো?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>আমরা কোর্সের জন্য একটা সিক্রেট ফেইসবুক গ্রূপ তৈরি করেছি। যেখানে আমি থাকবো, আমাদের
+                                        একজন প্রফেশনাল ওয়েব ডেভেলপার থাকবেন, সাপোর্ট করার জন্য আমাদের ডেভেলপার থাকবে।
+                                        আমাদের টিম মেম্বাররা থাকবে। আমাদের সর্বাত্মক চেষ্টা থাকবে ২৪ ঘন্টার মধ্যে তোমার
+                                        সব প্রশ্নের উত্তর দিতে। 😉 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    কোর্সের কনটেন্ট কি ফাইনাল?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>না। যদি কোন জায়গায় সেইম প্রশ্ন বারবার চলে আসে, তাহলে মাঝে মধ্যে সেই রিলেটেড ভিডিও
+                                        যোগ করা হবে। দরকার হলে দুই একটা মডিউলও যোগ হয়ে যেতে পারে। </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    এই কোর্সে কি WordPress বা Freelancing সম্পর্কে কিছু আছে?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>এই কোর্সে WordPress বা freelancing রিলেটেড সরাসরি কিছু নাই। কারণ, এই কোর্সের
+                                        উদ্দেশ্য হচ্ছে সফটওয়্যার কোম্পানিতে ওয়েব ডেভেলপার বলতে যেটা বুঝানো হয় সেটা হতে
+                                        চায় তাদের জন্য। এছাড়া এডভান্সড লেভেলে ওয়ার্ডপ্রেস কাস্টমাইজ করতে গেলে HTML, CSS,
+                                        bootstrap, JavaScript, এমনকি React ও জানতে হয়। সেগুলা এই কোর্স থেকে শিখতে পারবে।
+                                        তবে freelancing বা WordPress কে এই কোর্স হাইলাইট করা হয়নি। </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    এইগুলা ছাড়াও আমার আরো একটা প্রশ্ন আছে। সেটা কোথায় জিজ্ঞেস করবো?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>কোন টেনশন নাই। তোমার যত প্রশ্ন আছে সেগুলা মনের মাধুরী মিশিয়ে
+                                        web@programming-hero.com এ পাঠিয়ে দাও। আমরা যত দ্রুত সম্ভব রিপ্লাই দিয়ে দিবো।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-xl-6 d-flex align-items-center">
+                    <img src="images/faq.png" alt="" class="w-100 img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- project gallery -->
+    <section class="project_gallery my-5">
+        <div class="container">
+            <div class="row">
+                <div class="project_gallery_info w-50 mx-auto text-center">
+                    <h2>এই ১০ টা প্রোজেক্ট তুমি করবে</h2>
+                    <p>প্রোগ্রামিং কনসেপ্ট, স্কিল শেখানোর পাশাপাশি আমরা আরও বাড়তি ৫ টা প্রোজেক্ট করে দেখিয়ে দিবো তুমি এই
+                        ১০ টা প্রোজেক্ট যেনও নিজে করতে পারো। কেউ এই ১০টা প্রজেক্ট বুঝে বুঝে করতে পারলে তাকে আর কেউ
+                        ঠেকাতে পারবে না।</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="swiper-container project_slider loading">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <img src="images/personal-portfolio.png" class="entity-img" />
+                            <div class="content">
+                                <div class="project_btn_list">
+                                    <button class="btn html-button mr-2">HTML</button>
+                                    <button class="btn css-button mr-2">CSS</button>
+                                </div>
+                                <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Personal
+                                    Portfolio Website</p>
+                                <span class="caption" data-swiper-parallax="-20%">জাস্ট ৩ দিনে বেসিক html, css আর git
+                                    শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে
+                                    শেয়ার করতে পারবে।</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="images/personal-portfolio.png" class="entity-img" />
+                            <div class="content">
+                                <div class="project_btn_list">
+                                    <button class="btn html-button mr-2">HTML</button>
+                                    <button class="btn css-button mr-2">CSS</button>
+                                </div>
+                                <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Personal
+                                    Portfolio Website</p>
+                                <span class="caption" data-swiper-parallax="-20%">জাস্ট ৩ দিনে বেসিক html, css আর git
+                                    শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে
+                                    শেয়ার করতে পারবে।</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="images/personal-portfolio.png" class="entity-img" />
+                            <div class="content">
+                                <div class="project_btn_list">
+                                    <button class="btn html-button mr-2">HTML</button>
+                                    <button class="btn css-button mr-2">CSS</button>
+                                </div>
+                                <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Personal
+                                    Portfolio Website</p>
+                                <span class="caption" data-swiper-parallax="-20%">জাস্ট ৩ দিনে বেসিক html, css আর git
+                                    শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে
+                                    শেয়ার করতে পারবে।</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="images/personal-portfolio.png" class="entity-img" />
+                            <div class="content">
+                                <div class="project_btn_list">
+                                    <button class="btn html-button mr-2">HTML</button>
+                                    <button class="btn css-button mr-2">CSS</button>
+                                </div>
+                                <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Personal
+                                    Portfolio Website</p>
+                                <span class="caption" data-swiper-parallax="-20%">জাস্ট ৩ দিনে বেসিক html, css আর git
+                                    শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে
+                                    শেয়ার করতে পারবে।</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+                </div>
+            </div>
+    </section>
+
+    <section class="author_info">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-5">
+    			<img src="images/authorInfo.png" alt="authorInfo">
+    		</div>
+    		<div class="col-md-7">
+    			<h3 class="mb-4"><b>ঝংকার মাহবুব</b></h3>
+    			<p>
+    				ঝংকার মাহবুব এক দশক ধরে প্রোগ্রমিং ও ওয়েব ডেভেলপমেন্টের সাথে জড়িত। বুয়েটের পড়ালেখা শেষ করার পর কম্পিউটার সায়েন্সে মাস্টার্স করেন আমেরিকার নর্থ ডেকোটা স্টেট ইউনিভার্সিটি। তারপর সিনিয়র ওয়েব ডেভেলপার হিসেবে দীর্ঘদিন ধরে কাজ করেছেন যুক্তরাষ্ট্রের নিলসেন কোম্পানিতে। বর্তমানে স্ত্রী কারিনা ইসলামসহ বসবাস করছেন যুক্তরাষ্ট্রের ক্যালিফোর্নিয়ার অঙ্গরাজ্যের সিলিকনভ্যালি এরিয়াতে। প্রোগ্রামিংকে সহজ, মজার ও গল্পের ছলে উপস্থাপন করা নিয়ে জনপ্রিয় তিনটা বই লিখে ফেলেছেন তিনি। বইগুলো হচ্ছে: হাবলুদের জন্য প্রোগ্রামিং, প্রোগ্রামিংয়ের বলদ টু বস, আর প্রোগ্রামিংয়ের চৌদ্দগোষ্ঠী। এছাড়াও দিক-নির্দেশনামূলক বই লিখেছেন: রিচার্জ your ডাউন ব্যাটারি ও প্যারাময় লাইফের প্যারাসিটামল। আর অবসর সময়ে, Jhankar Mahbub নামক ইউটিউব চ্যানেলে প্রোগ্রামিং ও স্টুডেন্টদেরজন্য দিক-নির্দেশনামূলক ভিডিও বানান।
+    			</p>
+    		</div>
+    		</div>
+    	</div>
+    </section>
+
+    <!-- student feedback -->
+<section class="student_feedback">
+    <div class="container spacer por">
+        <div class="text-whtie text-center ml-3">
+            <h3 class="bold">স্টুডেন্টদের কোর্স সম্পর্কে মতামত</h3>
+
+        </div>
+        <div class="test-arrowbox">
+            <div class="swiper-button-prev-test">
+                <svg fill="red" height="34" class="arrow left">
+                    <use xlink:href="#arrow" />
+                </svg>
+            </div>
+            <div class="swiper-button-next-test">
+                <div class="arrow-right">
+                    <svg fill="red" height="60" width="60" class="arrow">
+                        <use xlink:href="#arrow" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-container swiper-testimonial">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="review-box text-center">
+                        <div class="media">
+                            <img class="mr-3" src="https://i.ibb.co/g9bDxK3/rasel.png" alt="Generic placeholder image" />
+                            <div class="media-body">
+                                <h5>Amanda Jackson</h5>
+                                <div class="testimonial__star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+                            </div>
+                        </div>
+                        <p class="read">
+                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the race.
+                        </p>
+                        <img class="quote" src="img/icons/quote.svg" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-box text-center">
+                        <div class="media">
+                            <img class="mr-3" src="https://i.ibb.co/g9bDxK3/rasel.png" alt="Generic placeholder image" />
+                            <div class="media-body">
+                                <h5>Amanda Jackson</h5>
+                                <div class="testimonial__star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+                            </div>
+                        </div>
+                        <p class="read">
+                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the race.
+                        </p>
+                        <img class="quote" src="img/icons/quote.svg" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-box text-center">
+                        <div class="media">
+                            <img class="mr-3" src="https://i.ibb.co/g9bDxK3/rasel.png" alt="Generic placeholder image" />
+                            <div class="media-body">
+                                <h5>Amanda Jackson</h5>
+                                <div class="testimonial__star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+                            </div>
+                        </div>
+                        <p class="read">
+                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the race.
+                        </p>
+                        <img class="quote" src="img/icons/quote.svg" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-box text-center">
+                        <div class="media">
+                            <img class="mr-3" src="https://i.ibb.co/g9bDxK3/rasel.png" alt="Generic placeholder image" />
+                            <div class="media-body">
+                                <h5>Amanda Jackson</h5>
+                                <div class="testimonial__star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+                            </div>
+                        </div>
+                        <p class="read">
+                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the race.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+            <a href="#" class="btn btn-danger  enroll_btn d-table mx-auto">View Success Page</a>
+    </div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-5">
+				<div class="logo">
+					<img src="images/logo.png" alt="">
+					<ul class="list-unstyled mt-3">
+						<li><i class="fa fa-map-marker-alt"></i> Level-4, 34, Awal Centre, Banani, Dhaka </li>
+						<li><i class="fa fa-envelope"></i> Official: web@programming-hero.com </li>
+						<li><i class="fa fa-phone-alt"></i> Helpline : 01322810867 , 01322810882 , 01322810880  </li>
+						<li>(Available : 09:00am to 7:00pm) </li>
+					</ul>
+					<img src="images/playstore-logo.png" alt="">
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3 sm-my-30">
+				<ul class="footer_menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Link2</a></li>
+					<li><a href="#">Link3</a></li>
+					<li><a href="#">Link4</a></li>
+				</ul>
+				<ul class="footer_social d-flex">
+					<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-sm-12 col-md-4">
+				<img src="images/payment-logo.png" alt="">
+			</div>
+		</div>
+		<div class="row">
+			<p class="copy_right_text">Copyright © 2021 Programming-hero.com</p>
+		</div>
+	</div>
+</footer>
+
+
+
+    <!-- slick slider -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- bootstrap 5 js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+
+    <!-- js file  -->
+    <script src="js/main.js"></script>
+
+
+
+
+<script type="text/javascript">
+	var swiper = new Swiper('.swiper-container.swiper-testimonial', {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next-test',
+        prevEl: '.swiper-button-prev-test',
+    },
+    breakpoints: {
+        // when window width is <= 320px     
+      767: {       
+         slidesPerView: 1,
+         spaceBetween: 0     
+      }
+    },
+});
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+/*@media (min-width: 300) and (max-width: 767px){}*/
+@media only screen and (max-width: 768px){
+	.course_time_schedule_wrapper {
+		display: block !important;
+	}
+
+	.course_tabs ul.nav-tabs {
+		width: 100%;
+	}
+	.author_info img{
+		display: block;
+		margin: auto;
+	}
+	.author_info h3{
+		text-align: center;
+	}
+	.author_info {
+		padding: 50px 0;
+	}
+	.author_info h3 {
+		margin: 20px;
+	}
+
+
+	.sm-my-30{
+		margin: 30px 0;
+	}
+	ol, ul {
+	 padding-left: 0; 
+	}
+
+	.project_gallery{
+		margin: 50px 0;
+	}
+	
+
+}
+
+@media only screen and (max-width: 992px){
+	.info_box_count .single_count {
+		gap: 5px;
+	}
+	.course_enroll_message h3{
+		font-size: 14px;
+	}
+
+	.course_tabs ul.nav-tabs{
+		width: 90%;
+	}
+	.nav-item .login{
+	 margin: 20px;
+	}
+
+	.course_questions_and_answers .nav {
+		justify-content: space-around;
+	}
+	.intro_video{
+		height: 300px;
+	}
+	.course_content {
+		margin-top: 50px;
+	}
+	.single_course_specialization.d-flex {
+		display: block !important;
+		text-align: center;
+	}
+		.project_gallery_info.w-50 {
+		width: 80% !important;
+	}
+
+}

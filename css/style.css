@@ -1,0 +1,358 @@
+:root {
+  --theme-color: #3950ca;
+  --bg-color: rgba(79, 48, 183, 0.06);
+  --comp-color: #ff6584;
+  --gradient: linear-gradient(#6a5fdd 0%, #241d8c 100%);
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap');
+body {
+     font-family: 'Poppins', sans-serif;
+  margin:0;
+  padding:0
+  font-size:17px;
+  font-weight: 400;
+line-height: 1.5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+p{
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+/* Header */
+nav.bg_transparent {
+    background: linear-gradient(107.07deg,#684efb -6.64%,#5a00dd 89.11%);
+}
+.nav-item a.nav-link{
+    color: #fff !important;
+    text-transform: capitalize;
+}
+
+
+.nav-item {
+    padding-left: 10px;
+}
+.nav-item .login{
+    color: #fff !important;
+    text-transform: capitalize;
+}
+.nav-item .login:hover {
+    color: #5a00dd !important;
+    background: #fff;
+}
+
+.nav-item .btn{
+    border-radius: 52px;
+    border: 1px solid #fff;
+    padding: 8px 20px!important;
+}
+
+/* banner */
+.banner {
+	padding: 100px 0;
+
+    background: linear-gradient(107.07deg,#684efb -6.64%,#5a00dd 89.11%);
+    position: relative;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
+
+/* course time duration */
+.course_enroll_message h3{
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0;
+    padding-left: 10px;
+}
+.course_enroll_message{
+    background: linear-gradient(107.07deg,#684efb -6.64%,#5a00dd 89.11%);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    align-items: center;
+}
+.enroll_btn {
+	border-radius: 40px !important;
+	position: relative;
+	white-space: nowrap;
+	padding: 15px 65px 15px 42px !important;
+}
+.enroll_btn::after {
+	content: "\2192";
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-family: "Font Awesome 5 Free";
+	font-weight: bolder;
+	height: 42px;
+	width: 42px;
+	background: #fff;
+	color: #f94f4f;
+	border-radius: 50%;
+	display: block;
+	font-size: 1.3em;
+	padding-top: 4px;
+}
+.course_time_duration{
+    width: 80%;
+    margin: auto;
+}
+.course_time_duration .card{
+    margin-top: -5%;
+}
+.course_time_schedule h4{
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000;
+}
+
+/* course details */
+.course_details .card{
+    box-shadow: 0px 0px 10px #ddd;
+}
+.intro_video{
+    background-image: url('https://web.programming-hero.com/public/1607512449309.png');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.registration_btn {
+	background: linear-gradient(180deg,#684efb .01%,#5a00dd 100.01%);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.registration_btn p{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.info_box_count .single_count{
+    gap: 10px;
+}
+.single_count p{
+    margin-bottom: 0;
+}
+.course_price, .course_price > span{
+    font-size: 36px;
+    line-height: 54px;
+    color: #303030;
+}
+
+.course_content{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-column-gap: 20px; 
+    grid-row-gap: 20px;
+}
+
+/* course benifit */
+.course_questions_and_answers{}
+.course_tabs ul.nav-tabs {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 10px #ddd;
+	padding: 30px 45px;
+    border-radius: 10px;
+}
+.course_tabs{}
+.course_tabs .nav-tabs{
+    border: none;
+}
+.course_tabs button.nav-link i{
+    font-size: 30px;
+}
+.course_tabs button.nav-link {
+	font-size: 17px;
+	color: #6c6c6c;
+}
+.course_tabs .nav-link.active {
+	color: #ff136f;
+    border-bottom: 3px solid #ff136f;
+
+}
+.course_tabs .nav-link{
+    border: none;
+}
+
+.qa_content h3{
+    margin: 18px 0;
+}
+
+
+.course_specialization{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.single_course_specialization{
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 30px;
+    border-radius: 10px;
+}
+.single_course_specialization .qa_content h3{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.single_course_specialization .qa_content P{
+    font-size: 14px;
+    text-align: justify;
+}
+.single_course_specialization .qa img{}
+.single_course_specialization img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.course_way{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.single_course_way{
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.single_course_way h2{
+    color: #ced2d8;
+    font-size: 6rem;
+    margin-right: 20px;
+}
+
+/* course module */
+.enroll_now{
+    background-image: linear-gradient(90deg, #FF277C, #df1c4a);
+    color: #fff;
+
+}
+.enroll_now span{
+    text-align: right;
+}
+.module_list{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.module_list li a{
+    font-weight: 700;
+    font-size: 18px;
+    color: #1e1e1e;
+}
+.module_list li{
+    padding: 20px 10px;
+}
+
+/* course faq */
+.course_faq{}
+.accordion-button::after {
+content: '+';
+background-image: none;
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: none;
+	content: '-';
+	margin-right: 3%;
+}
+.accordion-item {
+	border: none;
+	box-shadow: 0 0 10px #ddd;
+	margin-bottom: 20px;
+}
+
+/* project gallery */
+.project_gallery{
+    background-color: #f5f7ff;
+    padding: 100px 0;
+}
+
+/*author nfo*/
+.author_info{
+    padding: 100px 0 130px 0;
+}
+
+.testimonial__star {
+  margin-bottom: 10px;
+}
+.testimonial__star i {
+  color: #f0ad4e;
+}
+
+
+footer{
+    background-color: #5C0BE1;
+    padding: 50px 0;
+}
+footer ul{
+    gap:10px;
+}
+footer ul li{
+    color: #fff;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+
+}
+
+footer ul li a{
+     color: #fff;
+}
+footer ul li a:hover{
+    color:#ff589b ;
+}
+footer ul li i{
+    margin-right: 3px;
+}
+
+.footer_social i {
+    font-size: 24px;
+    margin-right: ;
+}
+.btn-danger {
+    background: linear-gradient(335.64deg,#ff589b -19.22%,#ff136f 118.87%);
+    color: #fff;
+    border: none;
+}
+.copy_right_text{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 30px;
+}
