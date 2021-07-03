@@ -284,6 +284,9 @@ nav.bg_transparent {
 content: '+';
 background-image: none;
 }
+.accordion-button:not(.collapsed) {
+     background-color: #e7f1ff;
+}
 .accordion-button:not(.collapsed)::after {
 	background-image: none;
 	content: '-';
